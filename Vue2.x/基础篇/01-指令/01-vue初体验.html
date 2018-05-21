@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue体验</title>
+</head>
+<body>
+    <div id="app">
+        <P>{{message}}</P>
+        <p>{{msg}}</p>
+
+    </div>
+
+<script src="../js/vue.js"></script>
+
+<script>
+    //1、创建vue实例
+    let vm=new Vue({
+        el: '#app',
+        data: {
+            message: '你好',
+            msg: '我饿了'
+        }
+    });
+
+</script>
+</body>
+</html>
